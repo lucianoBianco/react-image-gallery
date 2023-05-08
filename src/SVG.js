@@ -1,8 +1,8 @@
 import React from 'react';
 import {number, oneOf, string} from 'prop-types';
 
-const left = <polyline points="15 18 9 12 15 6" />;
-const right = <polyline points="9 18 15 12 9 6" />;
+const left = <polyline points="15 15 12 12 15 9" />;
+const right = <polyline points="9 15 12 12 9 9" />;
 const maximize = (
   <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
 );
@@ -54,7 +54,7 @@ SVG.propTypes = {
 
 SVG.defaultProps = {
   strokeWidth: 3,
-  viewBox: '0 0 24 24',
+  viewBox: '0 0 12 12',
   color: '#D3FD35',
 };
 
