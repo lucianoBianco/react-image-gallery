@@ -227,7 +227,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
     white-space: normal;
 
     @media (max-width: $ig-small-screen) {
-      bottom: 45px;
+      bottom: 5%;
       font-size: 0.8em;
       padding: 8px 15px;
     }
