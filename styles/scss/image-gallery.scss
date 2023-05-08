@@ -90,7 +90,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
 .image-gallery-left-nav,
 .image-gallery-right-nav {
   padding: 0px 10px;
-  bottom: 1%;
+  bottom: 0%;
 
   .image-gallery-svg {
     height: 120px;
@@ -131,7 +131,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
   @include vendor-prefix('user-select', none);
   -webkit-tap-highlight-color: $ig-transparent;
   position: relative;
-
+  max-width: 1080px;
   &.fullscreen-modal {
     background: $ig-black;
     bottom: 0;
@@ -213,11 +213,11 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
   }
 
   .image-gallery-description {
-    bottom: 5%;
+    bottom: 4%;
     color: $ig-white;
     line-height: 1;
     font-size: xx-large;
-    font-weight: 800;
+    font-weight: 600;
     width: 100%;
     text-shadow: 2px 2px #000;
     padding: 10px 20px;
