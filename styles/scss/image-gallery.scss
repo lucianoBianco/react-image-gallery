@@ -89,9 +89,8 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
 
 .image-gallery-left-nav,
 .image-gallery-right-nav {
-  padding: 50px 10px;
-  top: 92%;
-  transform: translateY(-50%);
+  padding: 0px 10px;
+  bottom: 1%;
 
   .image-gallery-svg {
     height: 120px;
@@ -213,7 +212,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
   }
 
   .image-gallery-description {
-    bottom: 35px;
+    bottom: 5%;
     color: $ig-white;
     line-height: 1;
     font-size: xx-large;
