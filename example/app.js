@@ -42,7 +42,8 @@ class App extends React.Component {
         thumbnail: `${PREFIX_URL}1t.jpg`,
         originalClass: 'featured-slide',
         thumbnailClass: 'featured-thumb',
-        description: 'Custom class for slides & thumbnails',
+        description:
+          'Custom class for slides & thumbnailsCustom class for slides & thumbnailsCustom class for slides & thumbnailsCustom class for slides & thumbnailsCustom class for slides & thumbnails',
       },
     ].concat(this._getStaticImages());
   }

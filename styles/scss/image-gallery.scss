@@ -217,10 +217,11 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
     line-height: 1;
     font-size: xx-large;
     font-weight: 600;
-    width: 100%;
+    flex-grow: 1;
     text-shadow: 2px 2px #000;
     padding: 10px 20px;
-    left: 100px !important;
+    left: 80px !important;
+    right: 80px !important;
     text-align: left;
     position: absolute;
     white-space: normal;
@@ -229,6 +230,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
       bottom: 5%;
       font-size: 0.8em;
       padding: 8px 15px;
+      left: 40px !important;
     }
   }
 }
